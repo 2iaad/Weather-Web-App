@@ -2,6 +2,7 @@
 
 ![Weather App Screenshot](./Screenshot%202025-11-12%20at%2011.09.47.png)
 
+
 A simple and elegant **Weather Web App** built with **HTML**, **CSS**, and **JavaScript**, using the **OpenWeather API** to display real-time weather information for any city in the world.
 
 ---
