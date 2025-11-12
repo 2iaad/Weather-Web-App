@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://www.infinite-morocco.com/wp-content/uploads/2024/02/Hassan-II-Mosque-7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 100vh;
+}
+
+main {
+  background-color: rgba(254, 197, 246, 0.871);
+  box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: 30%;
+  border: 1px solid;
+  border-radius: 5px;
+  min-width: 400px;
+  max-width: 50%;
+  margin: auto;
+  padding: 2em;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+main:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 150px rgb(0, 0, 0);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#search {
+  border-radius: 5px 0 0 5px;
+  border: none;
+  font-size: 16px;
+  width: 70%;
+  height: 42px;
+}
+
+#submit {
+  border-radius: 0 5px 5px 0;
+  padding: 10px;
+  font-size: 16px;
+  width: 5em;
+  cursor: pointer;
+}
+
+#submit:hover{
+  background-color: rgb(108, 30, 30);
+  color: white;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#weather-wrapper {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: space-between;
+}
+
+
+#weather-search {
+  display: flex;
+  width: 50%;
+}
+
+#weather-data {
+  background-color: rgba(250, 219, 246, 0.85);
+  border: 5px solid rgba(0, 0, 0, 0.299);
+  border-radius: 5px;
+  padding: 1.5em;
+  margin-top: 20px;
+
+  text-align: center;
+  align-items: center;
+  gap: 12px;
+}
+
+#weather-data > img {
+  border-radius: 5px;
+  background-color: rgba(101, 92, 92, 0);
+}
