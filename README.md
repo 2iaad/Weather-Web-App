@@ -139,7 +139,7 @@ The app then:
 
 ## 👨‍🎨 Author
 
-**Ziad Derfoufi**  
+**Ziyad Derfoufi**  
 🎓 42 Network Bootcamp Student  
 🔗 [GitHub Profile](https://github.com/2iaad)
 
